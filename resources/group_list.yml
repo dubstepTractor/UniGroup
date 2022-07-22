@@ -1,0 +1,100 @@
+#
+# TODO
+#
+list:
+  0:
+    name: 'Игрок'
+    display_name: '§7{nickname}'
+    name_tag: '§7< §e{group} §7> §7{nickname}§r'
+    chat_format: '§7< §e{thread} §7| §e{group} §7> §o§7{prefix}§r{prefix_delimiter}§r{nickname} §7> §7{message}§r'
+    restricted: false
+    permission_list:
+    - 'unigroup.command.group'
+    - 'unichat.command.cc'
+    - 'unichat.command.me'
+    - 'unichat.command.tell'
+    - 'uniauth.command.reset'
+  10:
+    parent_id: 0
+    name: 'Вип'
+    name_tag: '§7< §6{group} §7> §7{nickname}§r'
+    chat_format: '§7< §6{thread} §7| §6{group} §7> §o§7{prefix}§r{prefix_delimiter}§r{nickname} §7> §7{message}§r'
+    permission_list:
+    - 'unigroup.command.group-info'
+  20:
+    parent_id: 10
+    name: 'Премиум'
+    name_tag: '§7< §c{group} §7> §7{nickname}§r'
+    chat_format: '§7< §c{thread} §7| §c{group} §7> §o§7{prefix}§r{prefix_delimiter}§r{nickname} §7> §7{message}§r'
+  30:
+    parent_id: 20
+    name: 'Креатив'
+    name_tag: '§7< §d{group} §7> §7{nickname}§r'
+    chat_format: '§7< §d{thread} §7| §d{group} §7> §o§7{prefix}§r{prefix_delimiter}§r{nickname} §7> §7{message}§r'
+  40:
+    parent_id: 30
+    name: 'Модер'
+    name_tag: '§7< §b{group} §7> §7{nickname}§r'
+    chat_format: '§7< §b{thread} §7| §b{group} §7> §o§7{prefix}§r{prefix_delimiter}§r{nickname} §7> §7{message}§r'
+    permission_list:
+    - 'unigroup.command.group-hide'
+  50:
+    parent_id: 40
+    name: 'Админ'
+    name_tag: '§7< §a{group} §7> §7{nickname}§r'
+    chat_format: '§7< §a{thread} §7| §a{group} §7> §o§7{prefix}§r{prefix_delimiter}§r{nickname} §7> §7{message}§r'
+  60:
+    parent_id: 50
+    name: 'Антигриф'
+    name_tag: '§7< §6{group} §7> §7{nickname}§r'
+    chat_format: '§7< §6{thread} §7| §6{group} §7> §o§7{prefix}§r{prefix_delimiter}§r{nickname} §7> §7{message}§r'
+    permission_list:
+    - 'unichat.command.prefix'
+  70:
+    parent_id: 60
+    name: 'Оператор'
+    name_tag: '§7< §c{group} §7> §7{nickname}§r'
+    chat_format: '§7< §c{thread} §7| §c{group} §7> §o§7{prefix}§r{prefix_delimiter}§r{nickname} §7> §7{message}§r'
+  80:
+    parent_id: 70
+    name: 'Босс'
+    name_tag: '§7< §d{group} §7> §7{nickname}§r'
+    chat_format: '§7< §d{thread} §7| §d{group} §7> §o§7{prefix}§r{prefix_delimiter}§r{nickname} §7> §7{message}§r'
+  90:
+    parent_id: 80
+    name: 'Спонсор'
+    name_tag: '§7< §b{group} §7> §7{nickname}§r'
+    chat_format: '§7< §b{thread} §7| §b{group} §7> §o§7{prefix}§r{prefix_delimiter}§r{nickname} §7> §7{message}§r'
+  100:
+    parent_id: 90
+    name: 'Лорд'
+    name_tag: '§7< §a{group} §7> §7{nickname}§r'
+    chat_format: '§7< §a{thread} §7| §a{group} §7> §o§7{prefix}§r{prefix_delimiter}§r{nickname} §7> §7{message}§r'
+  110:
+    parent_id: 100
+    name: 'Бог'
+    name_tag: '§7< §f{group} §7> §7{nickname}§r'
+    chat_format: '§7< §f{thread} §7| §f{group} §7> §o§7{prefix}§r{prefix_delimiter}§r{nickname} §7> §7{message}§r'
+  111:
+    parent_id: 110
+    name: 'YоuTubе'
+    display_name: '§f{nickname}'
+    name_tag: '§7< §c{group} §7> §f{nickname}§r'
+    chat_format: '§7< §c{thread} §7| §c{group} §7> §o§7{prefix}§r{prefix_delimiter}§r{nickname} §7> §f{message}§r'
+    restricted: true
+  120:
+    parent_id: 110
+    name: 'Хелпер'
+    name_tag: '§7< §9{group} §7> §f{nickname}§r'
+    chat_format: '§7< §9{thread} §7| §9{group} §7> §o§7{prefix}§r{prefix_delimiter}§r{nickname} §7> §f{message}§r'
+    permission_list:
+    - 'unigroup.command.group-info-player'
+    - 'unichat.command.cc-all'
+  130:
+    parent_id: 120
+    name: 'Помідор'
+    display_name: '§e{nickname}'
+    name_tag: '§7< §9{group} §7> §f{nickname}§r'
+    chat_format: '§7< §9{thread} §7| §9{group} §7> §o§7{prefix}§r{prefix_delimiter}§r{nickname} §7> §e{message}§r'
+    permission_list:
+    - '*'
